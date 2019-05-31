@@ -7,9 +7,10 @@ class App extends Component {
     super();
     this.state = {
       starwarsChars: []
+      
     };
   }
-
+  
   componentDidMount() {
     this.getCharacters('https://swapi.co/api/people/');
   }
@@ -34,7 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        {/* <StarWarsList /> */}
+        <StarWarsList charList={this.state.starwarsChars}/>
       </div>
     );
   }
