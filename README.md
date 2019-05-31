@@ -24,13 +24,21 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+  React solves the problem of state management in javascript, dividing up into components with their own state.
 
-- [ ] Describe state.
+- [x] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+  Breaking up code into hierarchy? (not sure what the question means)
+
+- [x] Describe state.
+
+  State is the data that is being passed around in our class components
+
+- [x] Describe props.
+
+  props is and object passed in as a paramater that is the properties we can set up with JSX
 
 ## Project Set Up
 
