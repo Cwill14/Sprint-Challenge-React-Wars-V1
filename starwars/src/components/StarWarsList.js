@@ -14,8 +14,12 @@ const StarWarsList = props => {
                 gender={char.gender}
                 hairColor={char.hair_color}
                 height={char.height}
-                    
-
+                homeworld={char.homeworld}
+                mass={char.mass}
+                skinColor={char.skin_color}
+                species={char.species}
+                starships={char.starships}
+                vehicles={char.vehicles}
                 />
             ))};
         </div>
