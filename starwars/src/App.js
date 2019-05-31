@@ -24,12 +24,15 @@ class App extends Component {
         return res.json();
       })
       .then(data => {
+        console.log(data);
         this.setState({ starwarsChars: data.results });
       })
       .catch(err => {
         throw new Error(err);
       });
   };
+
+  
 
   render() {
     return (
