@@ -1,9 +1,11 @@
 import React from 'react';
 import StarWarsChar from './StarWarsChar';
+import './StarWars.css';
+
 
 const StarWarsList = props => {
     return (
-        <div>
+        <div className="flex">
             {props.charList.map(char => (
                 <StarWarsChar
                 key={char.name}    
